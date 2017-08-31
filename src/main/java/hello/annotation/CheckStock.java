@@ -13,7 +13,7 @@ import java.lang.annotation.Target;
 @Constraint(validatedBy = StockValidator.class)
 public @interface CheckStock {
 
-    String message() default "{hello.annotation.CheckStock.message}";
+    String message() default "{hello.annotation.checkstock.message}";
     Class[] groups() default {};
     Class[] payload() default {};
 }

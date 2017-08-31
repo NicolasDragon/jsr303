@@ -9,7 +9,7 @@ import javax.validation.constraintvalidation.SupportedValidationTarget;
 import javax.validation.constraintvalidation.ValidationTarget;
 
 @SupportedValidationTarget(ValidationTarget.PARAMETERS)
-public class TestValidator implements ConstraintValidator<CheckExistence, Object[]> {
+public class CheckValidator implements ConstraintValidator<CheckExistence, Object[]> {
 
 
     @Override
